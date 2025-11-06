@@ -354,6 +354,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 #sm-banner .banner-box {
@@ -362,11 +363,13 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(images/b17.jpg);
-    min-width: 590px;
+    flex: 1 1 48%;
+    min-width: 300px;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
+    border-radius: 10px;
 }
 
 #sm-banner h4 {
@@ -1125,7 +1128,7 @@ footer .copyright {
 
     #hero {
         flex-direction: row;
-        align-items: center; 
+        align-items: center;
         justify-content: space-between;
         padding: 20px 20px;
         height: auto;
@@ -1173,8 +1176,8 @@ footer .copyright {
     #hero button {
         padding: 10px 22px;
         font-size: 0.85rem;
-        margin-top: 5px;  
-    } 
+        margin-top: 5px;
+    }
 
     #feature {
         display: flex;
